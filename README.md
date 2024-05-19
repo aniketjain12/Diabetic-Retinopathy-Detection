@@ -11,11 +11,8 @@ This project aims to develop a machine learning model for detecting diabetic ret
 - [Model Architecture](#model-architecture)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
+
 
 ## Dataset
 
@@ -59,65 +56,10 @@ To train and evaluate the model, use the following commands:
     python train.py --dataset_path path/to/dataset
     ```
 
-2. **Evaluate the model**:
-    ```bash
-    python evaluate.py --model_path path/to/saved_model --dataset_path path/to/dataset
-    ```
-
-3. **Predict on new images**:
+2. **Predict on new images**:
     ```bash
     python predict.py --model_path path/to/saved_model --image_path path/to/image
     ```
-
-## Evaluation
-
-The model's performance is evaluated using several metrics:
-
-- **Accuracy**: Proportion of correctly classified images.
-- **Precision, Recall, F1-Score**: For each class.
-- **ROC-AUC**: Area under the receiver operating characteristic curve.
-
-## Results
-
-The model achieves the following performance metrics:
-
-- **Accuracy**: XX%
-- **Precision**: XX%
-- **Recall**: XX%
-- **F1-Score**: XX%
-- **ROC-AUC**: XX
-
-Detailed results and visualizations can be found in the `results` directory.
-
-## Contributing
-
-We welcome contributions to improve the project. Please follow these steps:
-
-1. **Fork the repository**.
-2. **Create a new branch**:
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-3. **Commit your changes**:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-4. **Push to the branch**:
-    ```bash
-    git push origin feature/your-feature
-    ```
-5. **Open a pull request**.
-
 ## License
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-
-- The authors of the original dataset.
-- Contributors to the open-source libraries used in this project.
-- [Kaggle](https://www.kaggle.com) for providing the dataset and hosting the competition.
-
----
-
-Feel free to customize this template based on the specifics of your project and your preferred structure.
