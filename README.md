@@ -60,6 +60,10 @@ To train and evaluate the model, use the following commands:
     ```bash
     python predict.py --model_path path/to/saved_model --image_path path/to/image
     ```
+    
+    ```bash
+    python -m streamlit run app.py
+    ```
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
